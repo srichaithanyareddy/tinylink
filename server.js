@@ -14,7 +14,7 @@ const app = express();
 // Debug: confirm env loaded
 console.log("Loaded PORT:", process.env.PORT);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
 app.use(helmet());
 app.use(morgan('tiny'));
