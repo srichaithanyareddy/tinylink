@@ -4,8 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>TinyLink - Dashboard</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="bg-gray-50 text-gray-900">
   <div class="max-w-4xl mx-auto p-4">
     <header class="flex items-center justify-between py-4">
@@ -16,7 +17,7 @@
     <section class="bg-white p-4 rounded shadow mb-4">
       <form id="createForm" class="grid grid-cols-1 md:grid-cols-3 gap-2 items-end">
         <div class="md:col-span-2">
-          <label class="block text-xs font-medium">Long URL</label>
+          <label class="block text-xs font-small">Long URL</label>
           <input id="target" class="w-full border p-2 rounded" placeholder="https://example.com/page" required />
           <div id="targetError" class="text-red-600 text-sm mt-1 hidden"></div>
         </div>

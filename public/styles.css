@@ -1,0 +1,124 @@
+/* ====== Global Styling ====== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* ====== Form Layout ====== */
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#createBtn {
+  background: #2563eb;
+  color: white;
+  margin-right: 8px;
+}
+
+#refreshBtn {
+  background: #e2e8f0;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* ====== Search Box ====== */
+#searchInput {
+  margin-top: 10px;
+}
+
+/* ====== Table ====== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background: #f1f5f9;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+tbody tr:hover {
+  background: #f8fafc;
+}
+
+/* ====== Action Buttons ====== */
+tbody button {
+  margin-right: 8px;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+tbody .copy-btn {
+  background: #3b82f6;
+  color: white;
+}
+
+tbody .stats-btn {
+  background: #6b7280;
+  color: white;
+}
+
+tbody .delete-btn {
+  background: #dc2626;
+  color: white;
+}
+
+/* ====== Empty State ====== */
+#emptyState {
+  text-align: center;
+  color: #6b7280;
+  padding: 20px;
+  font-size: 15px;
+}
+
+/* ====== Container ====== */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+input::placeholder {
+  font-size: 18px;
+}
+input {
+  font-size: 18px;
+}
