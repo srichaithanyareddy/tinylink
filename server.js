@@ -52,5 +52,3 @@ app.listen(PORT, "0.0.0.0", () => {
   console.log(`TinyLink listening on ${PORT}`);
 });
 
-const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => console.log("Server running on", PORT));
